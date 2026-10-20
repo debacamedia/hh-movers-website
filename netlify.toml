@@ -12,3 +12,13 @@
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=604800"
+
+[[redirects]]
+  from = "/interstate-moving/*"
+  to = "/long-distance-moving/"
+  status = 301
+
+[[redirects]]
+  from = "/interstate-moving"
+  to = "/long-distance-moving/"
+  status = 301
